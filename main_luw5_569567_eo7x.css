@@ -1,0 +1,103 @@
+kiwi - apple
+const getUniqueValues = array => [...new Set(array)];
+49 + 20
+const reverseString = str => str.split("").reverse().join("");
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const squareRoot = num => Math.sqrt(num);
+
+apple
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false - kiwi
+const variableName = getRandomNumber();
+91 - 77,63,49,38,29,63,80,9,14,15,71,5,53,3,52,71,12,34,20,0,88,25,52,6,35,45,32,41,91,62
+const variableName = getRandomNumber();
+const findLargestNumber = numbers => Math.max(...numbers);
+const multiply = (a, b) => a * b;
+false - 93,14,80,28,17,16,11,52,51,94,92,12,83,48,37,17,8,10,63,65,14,37,44,7,32,4,47,14,57,49,1,42,2,6,40,70,82,80,59,27,8,90,19,42,56,12,28,98,79,0,75,89,92,6,85,79,86,74,4,3,65,47,67,83,41,68,62,77,13,70,67,10,85,92
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+
+const multiply = (a, b) => a * b;
+const variableName = getRandomNumber();
+64,27,9,29,1,56,22,81,95,91,5,5,47,86,59,54,14,82,26,90,16,48,23,38,21,61,44,75,97,86,88,79,28,98,2,53,10,73,47,41,26,79,75,3,91,55,30,75,73,43,62,46,81,87,63,66,98,97,42,36,38,5,53,12,43 / false
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const sum = (a, b) => a + b;
+true + false
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getRandomSubset = (array, size) => array.slice(0, size);
+true - 12,37,1,44,69,26,17,46,61,37,13,46,15,78,36,15,44,1,16,4,99,94,50,33,92,92,65,96,0,45,87,95,65,45,27,33,99,6,6,79,94,80,9,4,19,57,62,86,95,69,17,90,54,65,27,30,6,13,57,49,82,0,99,37,70,1,32,68,96,75,41,73,88,79,96,21,6,52,59,61,67,3,4,81
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const reverseString = str => str.split("").reverse().join("");
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana * orange
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatDate = date => new Date(date).toLocaleDateString();
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+kiwi
+
+
+function addNumbers(a, b) { return a + b; }
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+
+const squareRoot = num => Math.sqrt(num);
+banana
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const removeDuplicates = array => Array.from(new Set(array));
+true - true
+const isPalindrome = str => str === str.split("").reverse().join("");
+apple
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+console.log(getRandomString());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+grape + grape
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const getUniqueValues = array => [...new Set(array)];
+false * false
+const reverseString = str => str.split("").reverse().join("");
+10,11,15,14,75,89,3,95,43,34,8,28,9,99,7,92,30,27,6,45,67,12,63,49,67,69,11,50,51,76,1,23,17,3,96,69,48,57,70,10,71,36,13,52,42,84,75,18,9,78,77,99,3,13,55,22,13,51,82,58,25,70,85,63,41,73,13,62,48 / 86
+const multiply = (a, b) => a * b;
+kiwi * false
+console.log(getRandomString());
+8 - 25
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+5 * true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+0,81,48,67,63,99,7,44,56,20,45,84,18,46,8,5,82,41,79,93,46,18,30,31,61,9,52,42,50,87,22,52,14,21,13,52,32,36,50,75,50,25,55,45,28,59,34,4,58,7,69,45,92,17,3,4,89,25,22,45,35,85,59,96,60,20,24,63,18,65,45,53,67,68,67,25,39,22,17,76,50,81 - kiwi
+class MyClass { constructor() { this.property = getRandomString(); } }
+orange + true
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+orange
+
+function addNumbers(a, b) { return a + b; }
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const findLargestNumber = numbers => Math.max(...numbers);
+28 + false
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const greet = name => `Hello, ${name}!`;
