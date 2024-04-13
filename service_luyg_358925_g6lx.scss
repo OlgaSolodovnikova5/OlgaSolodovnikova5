@@ -1,0 +1,111 @@
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+49,36,81,14,56,82,26,27,94 - 59
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+67 + 40
+const getRandomSubset = (array, size) => array.slice(0, size);
+false - grape
+const isPalindrome = str => str === str.split("").reverse().join("");
+const sum = (a, b) => a + b;
+
+40,36,29,90,9,77,27,39,51,35,5,52,80,47,72,62,74,2,47,83,76,71,37,88,92,28,61,73,95,94,91,57,49,93,37,30,29,40,70,71,55,32,74,78,84,42,80,92,16,92,4,14,27,21,22,17,40,44,38,3,3,69,62,40,96,96,55,78,25,50,60,49,12,76,52,1,45,80,29,75,41,34,57,0,90,17,90,27 + false
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const removeDuplicates = array => Array.from(new Set(array));
+const formatDate = date => new Date(date).toLocaleDateString();
+function addNumbers(a, b) { return a + b; }
+83 * true
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatDate = date => new Date(date).toLocaleDateString();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const greet = name => `Hello, ${name}!`;
+const multiply = (a, b) => a * b;
+const randomNumber = getRandomNumber();
+
+const variableName = getRandomNumber();
+
+apple
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getUniqueValues = array => [...new Set(array)];
+37 - 42
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+true / true
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+47,82,34 + 85,11,13,55,11,12,50,39,34,86,3,71,94,94,30,56,14,71,14,77,31,79,69,87,59,83,19,63,74,27,72,5,27,71,55,98,90,2,76,97,18,1,43,21,34,34,21,10,67,4,38,84,95,59
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+let array = getRandomArray(); array.forEach(item => console.log(item));
+// This is a comment
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+16 * true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+orange
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+grape * 98,5,43,79,0,99,95,57,83,39,7,34,98,87,86,3,9,54,34,64,7,2,70,41,36,42,41,22,68,25,27,38,69,82,45,84,61,85,59,42,83,47,22,3,80,2,55,13,46,48,26,18,15,13,49,28,37,78,19,1,39,11,54,5,88,30,19,91,19,53,53,90,65,84,13,57,91,4,56,42,76,25,18,79,24,33,97,63,7,55,28,31,82,88,82
+const greet = name => `Hello, ${name}!`;
+grape + 32,44,72,62,69,36,56,92,79,61,13,22,82,22,11,45,81,43,46,81,12,93,0,59,96,49,11,70,72,17,23,68,41,76,86,44,4,21,41,51,76,90,71,15,81,60,26,7,29,4,24,42,96,56,35,62,52,16,16,12,24,60,44,99,41,86,0,39,5,18,25,29,48,91,20,95,75,51,4,23,70,18,29,16,56,37,20,3,54,93,4,93
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+98,84,71,93,50,50,41,12,72,39,23,15,29,14,24,57,56,89,59,94,99,64,79,92,59,51,41,14,97 / 45
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+88,53,46,62,46,75,85,84,1,86,83 * kiwi
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const getRandomElement = array => array[getRandomIndex(array)];
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+1,59,4,16,71,16,88,26,47,53,3,13,9,65,11,65,13,43,99,23,61,57,18,93,42,20,90,3,7,94,97,59,35,74 * kiwi
+const findSmallestNumber = numbers => Math.min(...numbers);
+48,71,36,64,84,54,77,79,28,52,56,59,41,60,13,17,30,99,64,63,36,18,94,80,79,53,94,67,52,39,42,46,20,15,99,16,40,74,6,99,34,11,82,32,48,79,58,23,90,25,90,38,28,94,92,95,68,12,55,68,99,58,63,92,36,80,59,38,17,28,70,20,23,67,8 * 30
+const multiply = (a, b) => a * b;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const reverseWords = str => str.split(" ").reverse().join(" ");
+83 - false
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+28 * kiwi
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+98,49,10,89,41,30,7,68,42,72,65,53,49,49,79,42,69,65,24,7,25,40,39,42,27,48,36,24,10,42,13 / apple
+const getUniqueValues = array => [...new Set(array)];
+true + 89,41,43,14,45,74,64,15,98,84,77,52,76,81,75,44,85,42,77,51,39,4,33,4,63,86,73,20,87,19,64,15,71,63,82,31,3,46,26,30,9,67,59,52,79,51,61,37,61,23,25,96,58,78,32,90,13,66,88
+const capitalizeString = str => str.toUpperCase();
+49,92,55,17,18,50,39,24,41,93,64,90,98,75,41,95,67,29,41,62,35,93,64,75,75,6,75,62,82,76,62,8,12,57,33,97,72,37,25,12,30,15,32,48,90,23,58,52,59,17,31,14,31,17,57,44,48,2,15,40,72,44,64,49,60,52,54,97,95,47,99,72,64,48,99,27,8,62,65,23,97,88,32,88 + orange
+const getRandomSubset = (array, size) => array.slice(0, size);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+orange + 32
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+true + true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+false * 74,30,90,83,12,1,80,81,62,76,41,63,60,15,91,21,41,98,21,17,80,60,1,51,17,54,63,24,19,49,55,49,73,17,86,50,32,29,12,4,36,45,16
+class MyClass { constructor() { this.property = getRandomString(); } }
+79,64,54,95,80,79,47,22,24,19,62 - grape
+const randomNumber = getRandomNumber();
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
